@@ -1,0 +1,70 @@
+.header{
+  width: 100% ;
+  height: 60px;
+  background-color: white
+ 
+} 
+
+
+
+.logo img{
+  width: 40px;
+ margin-top: -5px;
+}
+
+.logo input{
+  width: 190px;
+  height: 40px;
+  padding: 7px 15px;
+  border: 1px solid #fde4e4;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 9px; 
+  margin-top: 10px;
+}
+
+.menu a {
+  font-weight: 600;
+  font-size: 1rem;
+  color: black;
+  transition: 0.3s;
+}
+
+.menu a:hover{
+  color: black;
+}
+
+.nav-profile img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+ul{
+  position: absolute;
+  top: 0%;
+  left: 40%;
+  gap: 20px;
+  display: flex;
+}
+
+ul li{
+
+ text-align: center;
+ list-style: none;
+}
+
+ul li .nav-icon{
+  width: 90px;
+  height: 30px;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto -5px;
+}
+
+
+.nav-icon img{
+  width: 30px;
+  height: 25px;
+  border-radius: 50%;
+}
